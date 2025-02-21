@@ -22,8 +22,8 @@ public class App {
 
     public static void conexão(){
         String url = "jdbc:mysql://localhost:3306/vacinacao";
-        String usuario = "root";
-        String senha = "Ar08tr10.";
+        String usuario = "user";
+        String senha = "root";
         try {
             conexao = DriverManager.getConnection(url, usuario, senha);
             comando = conexao.createStatement();
